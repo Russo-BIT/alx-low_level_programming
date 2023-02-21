@@ -9,7 +9,12 @@ int main(void)
 {
 	char word[] = "_putchar";
 
-	_putchar(word[8]);
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(word[c]);
+	}
 
 	_putchar('\n');
 
