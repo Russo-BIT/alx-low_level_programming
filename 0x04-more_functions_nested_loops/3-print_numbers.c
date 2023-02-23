@@ -4,8 +4,9 @@
 /**
  * print_numbers - Print numbers between 0 to 9 incl.
  *
- * Return: Void.
+ * Return: 0
  */
+
 void print_numbers(void)
 {
 	char c;
