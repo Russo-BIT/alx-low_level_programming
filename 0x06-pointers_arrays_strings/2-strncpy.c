@@ -20,7 +20,7 @@ char *_strncpy(char *dest, char *src, int n)
 		}
 		else
 		{
-		n = dest[i] - src[j];
+			n = dest[i] - src[j];
 		}
 		return (n);
 	}
