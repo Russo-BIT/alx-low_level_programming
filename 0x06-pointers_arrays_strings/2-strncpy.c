@@ -22,7 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 		{
 			n = dest[i] - src[j];
 		}
-		return (n);
+		return n;
 	}
 	return (0);
 }
